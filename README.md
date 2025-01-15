@@ -16,16 +16,14 @@ Desenvolver e comparar modelos de classificação de imagens para detecção e d
 📂 Estrutura do Projeto
 
 📁 DataSet/
-    ├── Training/
-    ├── Validation/
-    └── Testing/
-📁 models/
-    └── Salvar os modelos treinados (.pth)
-📁 results/
-    ├── Matriz de Confusão
-    └── Métricas de Avaliação
-train.py        # Script para treino e avaliação
-requirements.txt # Dependências do projeto
+    Training/
+    Validation/
+    Testing/
+📁 Models/
+    Salvar os modelos treinados (.pth)
+📁 Results/
+    Matriz de Confusão
+    Métricas de Avaliação
 
 
 🛠️ Tecnologias Utilizadas

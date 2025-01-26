@@ -1,0 +1,95 @@
+--- Inception ---
+Treinamento com Parâmetros Fixos
+
+Treinando - Epoch 1/5: 100%|██████████| 90/90 [17:19<00:00, 11.55s/it]
+Validando: 100%|██████████| 28/28 [01:34<00:00,  3.37s/it]
+Epoch 1/5, Loss: 0.7474, Train Accuracy: 83.34%
+Validation Loss: 1.1105, Validation Accuracy: 61.82%
+
+Treinando - Epoch 2/5: 100%|██████████| 90/90 [14:46<00:00,  9.84s/it]
+Validando: 100%|██████████| 28/28 [01:32<00:00,  3.32s/it]
+Epoch 2/5, Loss: 0.3427, Train Accuracy: 90.42%
+Validation Loss: 0.1930, Validation Accuracy: 93.43%
+
+Treinando - Epoch 3/5: 100%|██████████| 90/90 [14:47<00:00,  9.87s/it]
+Validando: 100%|██████████| 28/28 [01:33<00:00,  3.33s/it]
+Epoch 3/5, Loss: 0.3040, Train Accuracy: 92.65%
+Validation Loss: 0.4834, Validation Accuracy: 83.28%
+
+Treinando - Epoch 4/5: 100%|██████████| 90/90 [14:57<00:00,  9.97s/it]
+Validando: 100%|██████████| 28/28 [01:33<00:00,  3.34s/it]
+Epoch 4/5, Loss: 0.2864, Train Accuracy: 92.86%
+Validation Loss: 0.5277, Validation Accuracy: 81.89%
+
+Treinando - Epoch 5/5: 100%|██████████| 90/90 [14:57<00:00,  9.97s/it]
+Validando: 100%|██████████| 28/28 [01:33<00:00,  3.34s/it]
+Epoch 5/5, Loss: 0.2151, Train Accuracy: 95.12%
+Validation Loss: 0.0847, Validation Accuracy: 98.15%
+
+Accuracy: 0.7411
+Precision: 0.7975
+Recall: 0.7411
+F1 Score: 0.7133
+
+Treinamento com Otimização de Hiperparâmetros
+
+Teste 1: lr=0.001, batch_size=32, optimizer=Adam
+Treinando - Epoch 1/5: 100%|██████████| 90/90 [14:35<00:00,  9.72s/it]
+Validando: 100%|██████████| 28/28 [01:31<00:00,  3.28s/it]
+Epoch 1/5, Loss: 0.3953, Train Accuracy: 91.01%
+Validation Loss: 0.3245, Validation Accuracy: 91.12%
+
+Treinando - Epoch 2/5: 100%|██████████| 90/90 [14:30<00:00,  9.67s/it]
+Validando: 100%|██████████| 28/28 [01:31<00:00,  3.28s/it]
+Epoch 2/5, Loss: 0.2586, Train Accuracy: 94.25%
+Validation Loss: 0.2619, Validation Accuracy: 90.77%
+
+Treinando - Epoch 3/5: 100%|██████████| 90/90 [14:25<00:00,  9.62s/it]
+Validando: 100%|██████████| 28/28 [01:30<00:00,  3.23s/it]
+Epoch 3/5, Loss: 0.2214, Train Accuracy: 95.02%
+Validation Loss: 0.0777, Validation Accuracy: 96.77%
+
+Treinando - Epoch 4/5: 100%|██████████| 90/90 [14:35<00:00,  9.73s/it]
+Validando: 100%|██████████| 28/28 [01:32<00:00,  3.31s/it]
+Epoch 4/5, Loss: 0.1798, Train Accuracy: 95.96%
+Validation Loss: 0.5692, Validation Accuracy: 89.73%
+
+Treinando - Epoch 5/5: 100%|██████████| 90/90 [14:26<00:00,  9.62s/it]
+Validando: 100%|██████████| 28/28 [01:32<00:00,  3.29s/it]
+Epoch 5/5, Loss: 0.1748, Train Accuracy: 95.96%
+Validation Loss: 0.0434, Validation Accuracy: 98.62%
+
+Acurácia de Validação: 98.62%
+Teste 2: lr=0.001, batch_size=16, optimizer=Adam
+Treinando - Epoch 1/5: 100%|██████████| 180/180 [13:43<00:00,  4.58s/it]
+Validando: 100%|██████████| 55/55 [01:27<00:00,  1.60s/it]
+Epoch 1/5, Loss: 0.3165, Train Accuracy: 92.79%
+Validation Loss: 0.0585, Validation Accuracy: 98.50%
+
+Treinando - Epoch 2/5: 100%|██████████| 180/180 [13:45<00:00,  4.59s/it]
+Validando: 100%|██████████| 55/55 [01:28<00:00,  1.61s/it]
+Epoch 2/5, Loss: 0.3097, Train Accuracy: 93.00%
+Validation Loss: 0.0961, Validation Accuracy: 97.23%
+
+Treinando - Epoch 3/5: 100%|██████████| 180/180 [13:53<00:00,  4.63s/it]
+Validando: 100%|██████████| 55/55 [01:28<00:00,  1.62s/it]
+Epoch 3/5, Loss: 0.2162, Train Accuracy: 94.81%
+Validation Loss: 0.1346, Validation Accuracy: 95.27%
+
+Treinando - Epoch 4/5: 100%|██████████| 180/180 [13:51<00:00,  4.62s/it]
+Validando: 100%|██████████| 55/55 [01:28<00:00,  1.61s/it]
+Epoch 4/5, Loss: 0.1810, Train Accuracy: 95.71%
+Validation Loss: 0.1212, Validation Accuracy: 95.27%
+
+Treinando - Epoch 5/5: 100%|██████████| 180/180 [13:50<00:00,  4.61s/it]
+Validando: 100%|██████████| 55/55 [01:30<00:00,  1.64s/it]
+Epoch 5/5, Loss: 0.2361, Train Accuracy: 94.95%
+Validation Loss: 0.1132, Validation Accuracy: 97.00%
+
+Acurácia de Validação: 97.00%
+
+Melhores Hiperparâmetros: {'lr': 0.001, 'batch_size': 32, 'optimizer': 'Adam'}, Melhor Acurácia: 98.62%
+Accuracy: 0.7386
+Precision: 0.7598
+Recall: 0.7386
+F1 Score: 0.7352

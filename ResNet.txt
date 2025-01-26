@@ -1,0 +1,62 @@
+--- ResNet ---
+Treinamento com Otimização de Hiperparâmetros
+Teste 1: lr=0.01, batch_size=32, optimizer=SGD
+Treinando - Epoch 1/5: 100%|██████████| 90/90 [07:13<00:00,  4.81s/it]
+Validando: 100%|██████████| 28/28 [00:44<00:00,  1.60s/it]
+Epoch 1/5, Loss: 0.1008, Train Accuracy: 96.86%
+Validation Loss: 0.0736, Validation Accuracy: 97.00%
+
+Treinando - Epoch 2/5: 100%|██████████| 90/90 [06:50<00:00,  4.56s/it]
+Validando: 100%|██████████| 28/28 [00:42<00:00,  1.51s/it]
+Epoch 2/5, Loss: 0.0832, Train Accuracy: 97.07%
+Validation Loss: 0.0319, Validation Accuracy: 98.85%
+
+Treinando - Epoch 3/5: 100%|██████████| 90/90 [06:41<00:00,  4.47s/it]
+Validando: 100%|██████████| 28/28 [00:45<00:00,  1.62s/it]
+Epoch 3/5, Loss: 0.0667, Train Accuracy: 97.35%
+Validation Loss: 0.0226, Validation Accuracy: 99.08%
+
+Treinando - Epoch 4/5: 100%|██████████| 90/90 [06:48<00:00,  4.54s/it]
+Validando: 100%|██████████| 28/28 [00:44<00:00,  1.59s/it]
+Epoch 4/5, Loss: 0.0642, Train Accuracy: 97.74%
+Validation Loss: 0.0293, Validation Accuracy: 99.42%
+
+Treinando - Epoch 5/5: 100%|██████████| 90/90 [06:48<00:00,  4.54s/it]
+Validando: 100%|██████████| 28/28 [00:44<00:00,  1.59s/it]
+Epoch 5/5, Loss: 0.0501, Train Accuracy: 97.98%
+Validation Loss: 0.0152, Validation Accuracy: 99.65%
+
+Acurácia de Validação: 99.65%
+Teste 2: lr=0.001, batch_size=64, optimizer=Adam
+Treinando - Epoch 1/5: 100%|██████████| 45/45 [06:58<00:00,  9.29s/it]
+Validando: 100%|██████████| 14/14 [00:45<00:00,  3.27s/it]
+Epoch 1/5, Loss: 0.1696, Train Accuracy: 94.46%
+Validation Loss: 0.4599, Validation Accuracy: 86.16%
+
+Treinando - Epoch 2/5: 100%|██████████| 45/45 [07:10<00:00,  9.56s/it]
+Validando: 100%|██████████| 14/14 [00:45<00:00,  3.24s/it]
+Epoch 2/5, Loss: 0.1201, Train Accuracy: 96.66%
+Validation Loss: 0.0844, Validation Accuracy: 96.54%
+
+Treinando - Epoch 3/5: 100%|██████████| 45/45 [06:59<00:00,  9.32s/it]
+Validando: 100%|██████████| 14/14 [00:45<00:00,  3.25s/it]
+Epoch 3/5, Loss: 0.0759, Train Accuracy: 97.39%
+Validation Loss: 0.1133, Validation Accuracy: 95.04%
+
+Treinando - Epoch 4/5: 100%|██████████| 45/45 [06:58<00:00,  9.29s/it]
+Validando: 100%|██████████| 14/14 [00:45<00:00,  3.22s/it]
+Epoch 4/5, Loss: 0.0621, Train Accuracy: 97.28%
+Validation Loss: 0.1221, Validation Accuracy: 95.50%
+
+Treinando - Epoch 5/5: 100%|██████████| 45/45 [07:42<00:00, 10.27s/it]
+Validando: 100%|██████████| 14/14 [00:46<00:00,  3.33s/it]
+Epoch 5/5, Loss: 0.0742, Train Accuracy: 97.18%
+Validation Loss: 0.0700, Validation Accuracy: 97.92%
+
+Acurácia de Validação: 97.92%
+
+Melhores Hiperparâmetros: {'lr': 0.01, 'batch_size': 32, 'optimizer': 'SGD'}, Melhor Acurácia: 99.65%
+Accuracy: 0.7741
+Precision: 0.8382
+Recall: 0.7741
+F1 Score: 0.7369

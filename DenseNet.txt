@@ -1,0 +1,31 @@
+--- DenseNet ---
+Treinamento com Parâmetros Fixos
+Treinando - Epoch 1/5: 100%|██████████| 180/180 [20:43<00:00,  6.91s/it]
+Validando: 100%|██████████| 55/55 [01:52<00:00,  2.04s/it]
+Epoch 1/5, Loss: 0.5477, Train Accuracy: 79.83%
+Validation Loss: 0.7270, Validation Accuracy: 80.16%
+
+Treinando - Epoch 2/5: 100%|██████████| 180/180 [22:39<00:00,  7.55s/it]
+Validando: 100%|██████████| 55/55 [02:04<00:00,  2.27s/it]
+Epoch 2/5, Loss: 0.3588, Train Accuracy: 87.53%
+Validation Loss: 0.1636, Validation Accuracy: 94.81%
+
+Treinando - Epoch 3/5: 100%|██████████| 180/180 [21:45<00:00,  7.25s/it]
+Validando: 100%|██████████| 55/55 [01:58<00:00,  2.15s/it]
+Epoch 3/5, Loss: 0.3179, Train Accuracy: 88.71%
+Validation Loss: 0.1524, Validation Accuracy: 94.69%
+
+Treinando - Epoch 4/5: 100%|██████████| 180/180 [20:34<00:00,  6.86s/it]
+Validando: 100%|██████████| 55/55 [01:57<00:00,  2.14s/it]
+Epoch 4/5, Loss: 0.2539, Train Accuracy: 91.01%
+Validation Loss: 0.0838, Validation Accuracy: 97.58%
+
+Treinando - Epoch 5/5: 100%|██████████| 180/180 [20:28<00:00,  6.82s/it]
+Validando: 100%|██████████| 55/55 [01:56<00:00,  2.11s/it]
+Epoch 5/5, Loss: 0.2234, Train Accuracy: 93.14%
+Validation Loss: 0.1418, Validation Accuracy: 95.50%
+
+Accuracy: 0.5812
+Precision: 0.7440
+Recall: 0.5812
+F1 Score: 0.5395

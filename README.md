@@ -34,8 +34,30 @@ Desenvolver e comparar modelos de classificação de imagens para detecção e d
 - Matplotlib: Visualização de gráficos e resultados.
 - TQDM: Barras de progresso para o treinamento.
 
+
+Pré-requisitos
+
+Certifique-se de ter o Python instalado na versão 3.8 ou superior e o ambiente configurado. O projeto pode ser executado em qualquer IDE ou diretamente no Google Colab.
+
+Clone o repositório:
+
+git clone https://github.com/seuprojeto/MRICLASSIFICATION.git
+cd MRICLASSIFICATION
+
+Crie e ative um ambiente virtual (opcional):
+
+python -m venv venv
+source venv/bin/activate # Linux/Mac
+venv\Scripts\activate    # Windows
+
+Instale as dependências necessárias:
+
+pip install torch torchvision scikit-learn matplotlib tqdm
+
+
 📊 Resultados
 Os modelos foram avaliados em termos de:
+
 
 - Acurácia: Percentual de predições corretas.
 - Matriz de Confusão: Para análise detalhada das classes.

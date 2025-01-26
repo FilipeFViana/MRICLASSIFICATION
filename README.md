@@ -54,6 +54,10 @@ Instale as dependências necessárias:
 
 pip install torch torchvision scikit-learn matplotlib tqdm
 
+Baixe o DataSet e o descompacte na mesma pasta do projeto
+Link do dataset:
+
+https://drive.google.com/file/d/1pB-8lnmrF7nQDm5P5OSPcNmNAaJJm4Jw/view?usp=sharing
 
 📊 Resultados
 Os modelos foram avaliados em termos de:
